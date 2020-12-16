@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(55, 64, 73);
+}
+
+.mapdiv{
+    width: 70%;
+    margin: auto;
+}
+
+.mapdiv path{
+    display:inline;
+    fill:#f16565;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke-width:25;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:10;
+    stroke-dasharray:none;
+    stroke-opacity:1;
+    transition: fill 0.3s
+}
+
+.mapdiv :hover {
+    fill: #faaeae;
+}
